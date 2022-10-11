@@ -24,7 +24,7 @@ const App = () => {
       case '/Product':
         page = '2'
         break
-      case '/Manage':
+      case '/Ingredient':
         page = '3'
         break
       default:
@@ -58,8 +58,8 @@ const App = () => {
             },
             {
               key: '3',
-              icon: <Link to='/Manage'/>,
-              label: 'Manage',
+              icon: <Link to='/Ingredient'/>,
+              label: 'Ingredient',
             },
             {
               key: '4',

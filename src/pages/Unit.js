@@ -70,6 +70,7 @@ export default function Unit(){
   const editSuccess = () => toast('edit success')
 
   const onCreate = (values) => {
+    console.log(values)
     console.log('Received values of form: ', values);
     setOpen(false);
     editUnit(values).then(()=>editSuccess())
